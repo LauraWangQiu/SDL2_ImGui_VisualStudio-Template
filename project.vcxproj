@@ -18,12 +18,13 @@
     <ClCompile Include="dependencies\imgui-1.90.8\imgui_draw.cpp" />
     <ClCompile Include="dependencies\imgui-1.90.8\imgui_tables.cpp" />
     <ClCompile Include="dependencies\imgui-1.90.8\imgui_widgets.cpp" />
-    <ClCompile Include="Loop.cpp" />
-    <ClCompile Include="main.cpp" />
+    <ClCompile Include="src\Loop.cpp" />
+    <ClCompile Include="src\main.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="defs.h" />
-    <ClInclude Include="Loop.h" />
+    <ClInclude Include="src\checkML.h" />
+    <ClInclude Include="src\defs.h" />
+    <ClInclude Include="src\Loop.h" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>17.0</VCProjectVersion>
