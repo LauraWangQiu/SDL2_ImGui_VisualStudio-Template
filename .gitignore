@@ -1,5 +1,4 @@
 .vs
-*.vcxproj.user
 *.exe
 *.pdb
 bin/*
